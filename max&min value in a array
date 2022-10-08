@@ -13,8 +13,8 @@ void ArrayMax(int array[] , int num){
 void ArrayMin(int array[] , int num){
     int mini = INT_MAX;
     for(int i = 0; i < num; i++){
-        if(array[i] < maxi){
-            maxi = array[i];
+        if(array[i] < mini){
+            mnii = array[i];
         }
     }
     cout << "Minimum value of variable in the array is : "<< mini;
