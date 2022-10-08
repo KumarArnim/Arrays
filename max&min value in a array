@@ -29,6 +29,7 @@ int main(){
         cin >> array[i];
     }
     ArrayMax(array , n);
+    cout << endl;
     ArrayMin(array , n);
 
 }
