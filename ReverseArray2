@@ -6,7 +6,9 @@ int RevAlter(int array[] , int num){
     while(start <= end){
         swap(array[start], array[end]);
         start++;
+        //for alternate reverse start += 2;
         end--;
+        //for alternate reverse end -= 2;
     }
 }
 void PrintArray(int array[] , int num){
